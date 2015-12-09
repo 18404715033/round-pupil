@@ -7,9 +7,14 @@
 //
 
 #include <iostream>
-
+using namespace std;
+const double PI=3.1415926;
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    double r,l,s;
+    cin>>r;
+    l=2*PI*r;
+    cout<<"l="<<l<<endl;
+    s=PI*r*r;
+    cout<<"s="<<s<<endl;
     return 0;
 }
