@@ -16,5 +16,10 @@ int main(int argc, const char * argv[]) {
     cout<<"l="<<l<<endl;
     s=PI*r*r;
     cout<<"s="<<s<<endl;
+    int il,is;
+    il=l;
+    is=s;
+    cout<<"il="<<il<<endl;
+    cout<<"is="<<is<<endl;
     return 0;
 }
